@@ -37,8 +37,6 @@ let layer;
 
 function preload(){
     // Runs one time, loads up assets likes images and audio
-    this.load.crossOrigin = "Anonymous"
-    
     //importing images for frog and flag
     this.load.image('froggy', 'https://s3.amazonaws.com/bradypersonal/froggy.png')
     this.load.image('flag', 'https://s3.amazonaws.com/bradypersonal/flag.png')
