@@ -40,12 +40,12 @@ function preload(){
     this.load.crossOrigin = "Anonymous"
     
     //importing images for frog and flag
-    this.load.image('froggy', 'https://besnuggs.github.io/media/froggy.png')
-    this.load.image('flag', 'https://besnuggs.github.io/media/flag.png')
+    this.load.image('froggy', 'https://s3.amazonaws.com/bradypersonal/froggy.png')
+    this.load.image('flag', 'https://s3.amazonaws.com/bradypersonal/flag.png')
 
     //importing tile sheet for background and 
-    this.load.image('tiles', 'https://besnuggs.github.io/assets/FreeTileSet.png')
-    this.load.tilemapTiledJSON('map', 'https://besnuggs.github.io/assets/froggyMap.json')
+    this.load.image('tiles', 'https://s3.amazonaws.com/bradypersonal/FreeTileSet.png')
+    this.load.tilemapTiledJSON('map', 'https://s3.amazonaws.com/bradypersonal/froggyMap.json')
 }
 
 
