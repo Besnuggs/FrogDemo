@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+
+#froggy{
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#froggy > canvas {
+    border-radius: 5px;
+}
+
+#instructions{
+    position: relative;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+}
